@@ -3,7 +3,7 @@ import '../styles/sorting.css';
 import Modal from '../components/Modal';
 
 var BARS = 100;
-const barWidth = 15;
+const barWidth = 30;
 var SPEED = 500;
 
 async function waitForAnimate(sp){

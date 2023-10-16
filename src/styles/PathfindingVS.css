@@ -1,7 +1,16 @@
 .path-container{
-   margin : 10px auto;
-   max-width: 938px;
+   max-width: 1950px;
+   background-color: aquamarine;
 }
+
+#Container-blur {
+   width: 100vw;
+   height: 100vh;
+   background-color: #e2dac2; /* Set a background color if needed */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
 
 .path-header{
    display: flex;
@@ -17,6 +26,7 @@ path-speed-btns{
    cursor: pointer;
    padding: 5.5px;
    margin-right: 8px;
+   font-size: 1.4rem;
 }
 
 /* this css does not work drop-down inside text 
@@ -38,7 +48,7 @@ path-speed-btns{
   cursor: pointer;
   display: inline-block;
   font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 500;
   line-height: 20px;
   list-style: none;
@@ -82,7 +92,6 @@ path-speed-btns{
    background-color: #027ad6;
    color: white;
 }
-
 .start-maze-btn{
    background-color: #000;
    color: white;
@@ -103,6 +112,7 @@ path-speed-btns{
 .grid{
    display: flex;
    justify-content: center;
+   margin-top: 15px;
 }
 
 .ROW{
@@ -110,27 +120,27 @@ path-speed-btns{
 }
 
 .square{
-   outline: 1px solid #afd8f8;
-   width: 30px;
-   height: 30px;
+   outline: 2px solid #afd8f8;
+   width: 60px;
+   height: 60px;
    background-color: rgb(255, 255, 255);
  }
 
  .START_NODE{
-   outline: 1px solid #afd8f8;
+   outline: 2px solid #afd8f8;
    background-image: url(../icons/pin.png);
    background-repeat: no-repeat;
-   background-size: 30px;
+   background-size: 60px;
  }
  .END_NODE{
-   outline: 1px solid #afd8f8;
+   outline: 2px solid #afd8f8;
    background-image: url(../icons/goal.png);
    background-repeat: no-repeat;
-   background-size: 30px;
+   background-size: 60px;
  }
 
  .obtacle{
-   outline: 1px solid #2C3E50;
+   outline: 2px solid #2C3E50;
    background-color: #2C3E50;
    animation: wallAnimation 250ms ease-in;
 }
@@ -149,9 +159,9 @@ path-speed-btns{
 }
 
 .node-visited{
-   width: 30px;
-   height: 30px;
-   outline: 1px solid rgb(107, 218, 233);
+   width: 60px;
+   height: 60px;
+   outline: 2px solid rgb(107, 218, 233);
    animation-name: visitedAnimation;
    animation-duration: 1.5s;
    animation-iteration-count: 1;
@@ -180,9 +190,9 @@ path-speed-btns{
 }
 
 .shortestPath{
-   width: 30px;
-   height: 30px;
-   outline: 1px solid #FFC300;
+   width: 60px;
+   height: 60px;
+   outline: 2px solid #FFC300;
    animation-name: shortestPathAnimation;
    animation-duration: 500ms;
    animation-iteration-count: 1;
@@ -209,3 +219,4 @@ path-speed-btns{
       background-color: #FFC300;
    }
 }
+ 

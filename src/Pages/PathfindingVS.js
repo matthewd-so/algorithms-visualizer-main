@@ -252,9 +252,9 @@ function App(){
                         <div style={{"display":"flex","margin":"6px auto"}}>
                             <select className='my-drop-down' value={mazeID} onChange={(e)=>{setMazeID(parseInt(e.target.value))}}>
                                 <option className='my-drop-down-option' disabled value="0">Select Maze</option>
-                                <option value="1">Random basic maze</option>
-                                <option value="2">Randomized_dfs</option>
-                                <option value="3">Recursive division</option>
+                                <option value="1">Random Basic Maze</option>
+                                <option value="2">Randomized_DFS</option>
+                                <option value="3">Recursive Division</option>
                                 {/* <option value="4">Kruskal's algorithm</option>
                                 <option value="5">Prim's algorithm</option> */}
                             </select>

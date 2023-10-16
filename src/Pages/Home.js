@@ -13,7 +13,7 @@ function Home() {
 
       <div className='cards-container'>
         <Link className='no_underline' to="/path-finding">
-          <Card array={[img1, "Path Finder"]} />
+          <Card array={[img1, "Path Finding Algorithms"]} />
         </Link>
         <Link className='no_underline' to="/sorting">
           <Card array={[img2, "Sorting Algorithms"]} />
